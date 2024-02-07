@@ -1,4 +1,10 @@
-var config = {
+import Phaser from 'phaser';
+import BootScene from './scenes/BootScene';
+import MainMenuScene from './scenes/MainMenuScene';
+import GameScene from './scenes/GameScene';
+import GameOverScene from './scenes/GameOverScene';
+
+const config = {
     type: Phaser.AUTO,
     width: 800,
     height: 600,
@@ -9,23 +15,7 @@ var config = {
             debug: false
         }
     },
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
+    scene: [BootScene, MainMenuScene, GameScene, GameOverScene]
 };
 
-var game = new Phaser.Game(config);
-
-function preload() {
-    // Load assets
-}
-
-function create() {
-    // Create game entities
-}
-
-function update() {
-    // Game loop
-}
+const game = new Phaser.Game(config);
