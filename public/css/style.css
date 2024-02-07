@@ -1,50 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Arial', sans-serif;
-    background: #000;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Ensure the canvas is centered */
-canvas {
-    display: block;
-    margin: 0 auto;
-    max-width: 95%;
-    max-height: 95%;
-}
-
-/* UI Components */
-.button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .button {
-        padding: 8px 15px;
-    }
-
-    body {
-        flex-direction: column;
-    }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #000000;
 }
