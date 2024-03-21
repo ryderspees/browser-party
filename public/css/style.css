@@ -1,6 +1,30 @@
-html,
-body {
+html, body {
   height: 100%;
   margin: 0;
-  background-color: #000000;
+  background-color: #1f1f1f;
+}
+
+#top-menu {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#logo a, #menu-links a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 2000px;
+}
+
+#logo a:hover, #menu-links a:hover {
+  color: white;
+}
+
+#logo, #menu-links {
+  flex: 1;
+  text-align: center;
 }
