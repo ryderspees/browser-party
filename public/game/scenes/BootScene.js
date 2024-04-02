@@ -9,7 +9,6 @@ class BootScene extends Phaser.Scene {
     }
 
     create() {
-        // Setup and transition to the next scene
         this.scene.start('MainMenuScene');
     }
 }

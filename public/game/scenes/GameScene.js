@@ -4,7 +4,7 @@ class GameScene extends Phaser.Scene {
     }
 
     create() {
-        // Game setup, create entities, etc.
+        this.add.text(100, 150, 'Welcome to the Game', { fill: '#000000' });
     }
 
     update(time, delta) {

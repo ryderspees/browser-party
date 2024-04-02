@@ -4,34 +4,3 @@ body {
   margin: 0;
   background-color: #1f1f1f;
 }
-
-#top-menu {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#logo a,
-#menu-links a {
-  color: #ddd;
-  text-decoration: none;
-  padding: 0 15px;
-}
-
-#logo a:hover,
-#menu-links a:hover {
-  color: white;
-}
-
-#logo {
-  align-self: flex-start;
-}
-
-#menu-links {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
